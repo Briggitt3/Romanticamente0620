@@ -1,0 +1,96 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Fredoka+One');
+
+/* desktop */
+body{
+	width: 100%;
+	min-height: 100%; 
+	margin: 0;
+	padding: 0;
+	font-family: 'Droid Sans', sans-serif; 
+	background: linear-gradient(135deg, Purple, #505488, #161569, #5A4894, #A959A1, Pink);
+	background-size: 500%;
+	
+}
+
+/* Blanco, negro, gris, azul, morado, amarillo, verde, rojo*/
+
+h1{
+	font-size: 80px; 
+	color: #FFF; 
+	text-align: center;
+	letter-spacing: 5px;
+	font-family: 'Fredoka One', cursive;
+	opacity: 0.6; 
+    margin-bottom: 0;
+}
+
+h3{
+	font-size: 22px;
+	color: #FFF;  
+	line-height: 50px; 
+	letter-spacing: 3px;
+	text-align: center;
+	width: 60%; 
+	margin: auto;
+	padding-bottom: 10px; 
+}
+
+
+h4{
+	font-size: 12px; 
+	color: #FFF; 
+	line-height: 35px; 
+	letter-spacing: 4px;
+	text-align: center;
+    font-style: italic;
+	padding-bottom: 20px; 
+}
+
+
+button{
+	background: #FFF; 
+	color: darkblue; 
+	cursor: pointer;
+	text-transform: uppercase;
+	width: 190px; 
+	height: 60px; 
+	border: 1px solid darkblue;
+    border-radius: 20px;
+	letter-spacing: 2px;  
+	font-size: 14px; 
+	font-weight: bold;
+	box-shadow: 0 0 30px darkblue;
+}
+
+
+button:hover{
+    background-color: Pink;
+    color: purple;
+	border-color: white;
+	box-shadow: 0 0 20px white;
+	text-shadow: 0 0 30px white;
+} 
+
+
+#contenido{
+	padding-top: 50px; 
+	padding-bottom: 100px; 	
+
+}
+
+
+::selection{
+	background: #94DAF0; 
+	color: #FFF;  
+}
+
+
+
+/* mobile */
+@media screen and (max-width: 800px){
+	h3{width: 80%;}
+	#contenido{padding-top: 10px;}
+}
+
+
