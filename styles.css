@@ -87,10 +87,32 @@ button:hover{
 
 
 
-/* mobile */
-@media screen and (max-width: 800px){
-	h3{width: 80%;}
-	#contenido{padding-top: 10px;}
+/* mobile styles */
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h3 {
+    width: 80%;
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 10px;
+  }
+
+  button {
+    width: 150px;
+    height: 50px;
+    font-size: 12px;
+  }
+
+  #contenido {
+    padding-top: 10px;
+    padding-bottom: 50px;
+  }
 }
 
 
