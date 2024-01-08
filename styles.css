@@ -1,118 +1,104 @@
-/* google fonts */
-@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Fredoka+One');
+/* desktop styles */
 
-/* desktop */
-body{
+body {
 	width: 100%;
-	min-height: 100%; 
+	min-height: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: 'Droid Sans', sans-serif; 
+	font-family: 'Droid Sans', sans-serif;
 	background: linear-gradient(135deg, Purple, #505488, #161569, #5A4894, #A959A1, Pink);
 	background-size: 500%;
-	
-}
-
-/* Blanco, negro, gris, azul, morado, amarillo, verde, rojo*/
-
-h1{
-	font-size: 80px; 
-	color: #FFF; 
+  }
+  
+  h1 {
+	font-size: 6vw; /* Utilizamos unidades viewport width (vw) para hacerlo más adaptable */
+	color: #FFF;
 	text-align: center;
-	letter-spacing: 5px;
+	letter-spacing: 2px;
 	font-family: 'Fredoka One', cursive;
-	opacity: 0.6; 
-    margin-bottom: 0;
-}
-
-h3{
-	font-size: 22px;
-	color: #FFF;  
-	line-height: 50px; 
-	letter-spacing: 3px;
+	opacity: 0.8; /* Ajuste opcional de la opacidad */
+	margin-bottom: 0;
+  }
+  
+  h3 {
+	font-size: 4vw;
+	color: #FFF;
+	line-height: 1.5;
+	letter-spacing: 1px;
 	text-align: center;
-	width: 60%; 
+	width: 80%; /* Ajuste del ancho para dispositivos móviles */
 	margin: auto;
-	padding-bottom: 10px; 
-}
-
-
-h4{
-	font-size: 12px; 
-	color: #FFF; 
-	line-height: 35px; 
-	letter-spacing: 4px;
+	padding-bottom: 10px;
+  }
+  
+  h4 {
+	font-size: 2vw;
+	color: #FFF;
+	line-height: 1.5;
+	letter-spacing: 1px;
 	text-align: center;
-    font-style: italic;
-	padding-bottom: 20px; 
-}
-
-
-button{
-	background: #FFF; 
-	color: darkblue; 
+	font-style: italic;
+	padding-bottom: 20px;
+  }
+  
+  button {
+	background: #FFF;
+	color: darkblue;
 	cursor: pointer;
 	text-transform: uppercase;
-	width: 190px; 
-	height: 60px; 
+	width: 60vw; /* Ajuste del ancho para dispositivos móviles */
+	height: 10vw; /* Ajuste de la altura para dispositivos móviles */
 	border: 1px solid darkblue;
-    border-radius: 20px;
-	letter-spacing: 2px;  
-	font-size: 14px; 
+	border-radius: 20px;
+	letter-spacing: 2px;
+	font-size: 2vw;
 	font-weight: bold;
-	box-shadow: 0 0 30px darkblue;
-}
-
-
-button:hover{
-    background-color: Pink;
-    color: purple;
+	box-shadow: 0 0 10px darkblue;
+  }
+  
+  button:hover {
+	background-color: Pink;
+	color: purple;
 	border-color: white;
-	box-shadow: 0 0 20px white;
-	text-shadow: 0 0 30px white;
-} 
-
-
-#contenido{
-	padding-top: 50px; 
-	padding-bottom: 100px; 	
-
-}
-
-
-::selection{
-	background: #94DAF0; 
-	color: #FFF;  
-}
-
-
-
-/* mobile styles */
-
-@media screen and (max-width: 800px) {
-  h1 {
-    font-size: 60px;
+	box-shadow: 0 0 10px white;
+	text-shadow: 0 0 10px white;
   }
-
-  h3 {
-    width: 80%;
-    font-size: 18px;
-  }
-
-  h4 {
-    font-size: 10px;
-  }
-
-  button {
-    width: 150px;
-    height: 50px;
-    font-size: 12px;
-  }
-
+  
   #contenido {
-    padding-top: 10px;
-    padding-bottom: 50px;
+	padding-top: 20px; /* Ajuste del espaciado superior para dispositivos móviles */
+	padding-bottom: 50px;
   }
-}
-
-
+  
+  ::selection {
+	background: #94DAF0;
+	color: #FFF;
+  }
+  
+  /* mobile styles */
+  
+  @media screen and (max-width: 800px) {
+	h1 {
+	  font-size: 8vw;
+	}
+  
+	h3 {
+	  font-size: 5vw;
+	  width: 90%;
+	}
+  
+	h4 {
+	  font-size: 3vw;
+	}
+  
+	button {
+	  width: 70vw;
+	  height: 12vw;
+	  font-size: 3vw;
+	}
+  
+	#contenido {
+	  padding-top: 10px;
+	  padding-bottom: 30px;
+	}
+  }
+  
