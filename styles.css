@@ -10,41 +10,43 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Droid Sans', sans-serif;
-	background: linear-gradient(135deg, rgb(228, 67, 94), darkblue, Purple);
-	background-size: 500%;
+	background: linear-gradient(135deg, rgb(226, 119, 226), purple, darkblue, purple);
+	background-size: 100%;
+	margin-bottom: 10vw;
+	overflow-y: hidden;
   }
   
   h1 {
-	font-size: 6vw; /* Utilizamos unidades viewport width (vw) para hacerlo más adaptable */
+	font-size: 12vw; /* Utilizamos unidades viewport width (vw) para hacerlo más adaptable */
 	color: #FFF;
 	text-align: center;
 	letter-spacing: 2px;
 	font-family: 'Arial', cursive;
-	margin-bottom: -7vw;
-	margin-top: auto;
+	margin-bottom: -6vw;
+	margin-top: 0;
   }
   
   h3 {
-	font-size: 4vw;
+	font-size: 3vw;
 	color: #FFF;
 	line-height: 1.5;
 	letter-spacing: 1px;
 	text-align: center;
-	width: 80%; /* Ajuste del ancho para dispositivos móviles */
+	width: 90%; /* Ajuste del ancho para dispositivos móviles */
 	margin: auto;
-	padding-bottom: 10px;
+	
   }
   
   h4 {
-	font-size: 2vw;
+	font-size: 1vw;
 	color: #FFF;
 	line-height: 1.5;
 	letter-spacing: 1px;
 	text-align: center;
 	font-style: italic;
 	padding-bottom: 20px;
-	margin-top: 4vw;
-	margin-bottom: 4vw;
+	margin: 2vw;
+	
   }
   
   button {
@@ -52,28 +54,26 @@ body {
 	color: darkblue;
 	cursor: pointer;
 	text-transform: uppercase;
-	width: 60vw; /* Ajuste del ancho para dispositivos móviles */
-	height: 10vw; /* Ajuste de la altura para dispositivos móviles */
+	width: 20vw; /* Ajuste del ancho para dispositivos móviles */
+	height: 5vw; /* Ajuste de la altura para dispositivos móviles */
 	border: 1px solid darkblue;
 	border-radius: 20px;
 	letter-spacing: 2px;
 	font-size: 2vw;
 	font-weight: bold;
-	box-shadow: 0 0 10px darkblue;
+	box-shadow: 0 0 3vw darkblue;
+	margin-bottom: 0;
   }
   
   button:hover {
 	background-color: Pink;
 	color: purple;
 	border-color: white;
-	box-shadow: 0 0 10px white;
+	box-shadow: 0 0 2vw white;
 	text-shadow: 0 0 10px white;
   }
   
   #contenido {
-	text-align: center;
-	max-width: 600px;
-	width: 90%;
 	padding-top: 20px; /* Ajuste del espaciado superior para dispositivos móviles */
 	padding-bottom: 50px;
   }
@@ -86,8 +86,21 @@ body {
   /* mobile styles */
   
   @media screen and (max-width: 800px) {
+	body {
+		background: linear-gradient(135deg, rgb(228, 67, 94), darkblue, Purple);
+	
+	}
+	
+	#contenido {
+		text-align: center;
+		max-width: 600px;
+		width: 90%;
+	  }
+
 	h1 {
 	  font-size: 20vw;
+	  margin-bottom: -7vw;
+	  margin-top: auto;
 	}
   
 	h3 {
@@ -97,6 +110,8 @@ body {
   
 	h4 {
 	  font-size: 4vw;
+	  margin-top: 4vw;
+	  margin-bottom: 4vw;
 	}
   
 	button {
