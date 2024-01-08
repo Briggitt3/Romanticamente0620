@@ -88,6 +88,7 @@ body {
   @media screen and (max-width: 800px) {
 	body {
 		background: linear-gradient(135deg, rgb(228, 67, 94), darkblue, Purple);
+		background-size: 395%;
 	
 	}
 	
