@@ -32,8 +32,9 @@ body {
 	line-height: 1.5;
 	letter-spacing: 1px;
 	text-align: center;
-	width: 90%; /* Ajuste del ancho para dispositivos móviles */
 	margin: auto;
+	padding-left: 10vw;
+	padding-right: 10vw;
 	
   }
   
@@ -89,7 +90,6 @@ body {
 	body {
 		background: linear-gradient(135deg, rgb(228, 67, 94), darkblue, Purple);
 		background-size: 395%;
-	
 	}
 	
 	#contenido {
@@ -102,21 +102,28 @@ body {
 	  font-size: 20vw;
 	  margin-bottom: -7vw;
 	  margin-top: auto;
+	  text-align: left;
+	  margin-left: 5vw;
+
 	}
   
 	h3 {
 	  font-size: 7vw;
 	  width: 90%;
+	  padding: 0;
+	  text-align: left;
 	}
   
 	h4 {
-	  font-size: 4vw;
+	  font-size: 3.5vw;
 	  margin-top: 4vw;
 	  margin-bottom: 4vw;
+	  text-shadow: 0 0 5vw pink;
+	  text-align: right;
 	}
   
 	button {
-	  width: 60vw;
+	  width: 90%;
 	  height: 16vw;
 	  font-size: 5vw;
 	}
